@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhypen DESIRE:UNLEASH</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ENHYPEN – DESIRE : UNLEASH</h1>
+        <p>Enter the digital realm of identity, passion, and performance.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#album">Album</a>
+        <a href="#members">Members</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+
+    <section id="about" class="reveal">
+        <h2>About ENHYPEN</h2>
+        <p>ENHYPEN is a South Korean boy band formed through the survival show "I-LAND". Their concept blends dark
+            storytelling, futuristic visuals, and layered symbolism. The group explores identity, youth, and
+            transformation, captivating a global audience with each comeback.</p>
+    </section>
+
+    <section id="album" class="reveal">
+        <h2>DESIRE : UNLEASH</h2>
+        <div class="album">
+            <p>This era showcases ENHYPEN in a cyber-digital universe where desire overrides control. With tracks like
+                "Fatal Trouble" and "XO (Only If You Say Yes)", the group dives into themes of temptation, rebellion,
+                and emotional awakening, set to pulsating beats and electric choreography.</p>
+        </div>
+    </section>
+
+    <section id="members" class="reveal">
+        <h2>Meet the Members</h2>
+        <div class="members">
+            <div class="member-card">
+                <h3>Jungwon</h3>
+                <p>Leader and dancer, known for his duality and elegance. He opens the gates to ENHYPEN's realm.</p>
+            </div>
+            <div class="member-card">
+                <h3>Heeseung</h3>
+                <p>Vocalist and all-rounder, his voice guides fans through sonic labyrinths.</p>
+            </div>
+            <div class="member-card">
+                <h3>Jay</h3>
+                <p>Charismatic and intense, Jay brings power to the group's darker concepts.</p>
+            </div>
+            <div class="member-card">
+                <h3>Jake</h3>
+                <p>Smooth and warm, Jake balances emotion with performance.</p>
+            </div>
+            <div class="member-card">
+                <h3>Sunghoon</h3>
+                <p>Elegant visual, former figure skater, brings grace to every stage.</p>
+            </div>
+            <div class="member-card">
+                <h3>Sunoo</h3>
+                <p>Radiant yet mysterious, his expressions capture both light and shadow.</p>
+            </div>
+            <div class="member-card">
+                <h3>Ni-Ki</h3>
+                <p>Maknae and dance prodigy, he bends time and space through motion.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="reveal">
+        <h2>Concept Photos</h2>
+        <div class="gallery">
+            <img src="https://kpopping.com/documents/db/5/ENHYPEN-6th-MINI-ALBUM-DESIRE-UNLEASH-CONCEPT-PHOTOS-documents-21.jpeg?v=5bff1"
+                alt="Concept Photo 1">
+            <img src="https://kpopping.com/documents/dd/4/ENHYPEN-6th-MINI-ALBUM-DESIRE-UNLEASH-CONCEPT-PHOTOS-documents-1(1).jpeg?v=5bff1"
+                alt="Concept Photo 2">
+            <img src="https://kpopping.com/documents/93/5/ENHYPEN-6th-MINI-ALBUM-DESIRE-UNLEASH-CONCEPT-PHOTOS-documents-6.jpeg?v=5bff1"
+                alt="Concept Photo 3">
+            <img src="https://kpopping.com/documents/67/1/ENHYPEN-6th-MINI-ALBUM-DESIRE-UNLEASH-CONCEPT-PHOTOS-documents-8.jpeg?v=5bff1"
+                alt="Concept Photo 4">
+            <img src="https://kpopping.com/documents/52/3/ENHYPEN-6th-MINI-ALBUM-DESIRE-UNLEASH-CONCEPT-PHOTOS-documents-11.jpeg?v=5bff1"
+                alt="Concept Photo 5">
+            <img src="https://kpopping.com/documents/8a/4/ENHYPEN-6th-MINI-ALBUM-DESIRE-UNLEASH-CONCEPT-PHOTOS-documents-13.jpeg?v=5bff1"
+                alt="Concept Photo 6">
+            <img src="https://kpopping.com/documents/a1/2/ENHYPEN-6th-MINI-ALBUM-DESIRE-UNLEASH-CONCEPT-PHOTOS-documents-16.jpeg?v=5bff1"
+                alt="Concept Photo 7">
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Fan Project | Inspired by ENHYPEN's DESIRE : UNLEASH | For ENGENEs
+    </footer>
+
+    <script>
+        // Scroll reveal effect
+        const reveals = document.querySelectorAll('.reveal');
+        window.addEventListener('scroll', () => {
+            for (let el of reveals) {
+                const top = el.getBoundingClientRect().top;
+                if (top < window.innerHeight - 100) {
+                    el.classList.add('active');
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

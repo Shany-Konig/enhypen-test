@@ -1,0 +1,132 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #020602;
+      color: #d6ffd6;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0c1f0c;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 0 20px #39ff14;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #39ff14;
+      text-shadow: 0 0 10px #39ff14;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #bbffbb;
+    }
+
+    nav {
+       background: #061206;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      box-shadow: 0 4px 8px rgba(57, 255, 20, 0.2); 
+    }
+
+    nav a {
+      color: #90ee90;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #39ff14;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #6bff6b;
+      margin-bottom: 20px;
+      border-left: 5px solid #39ff14;
+      padding-left: 15px;
+    }
+
+    .members {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .member-card {
+      background: #0a150a;
+      border: 1px solid #39ff14;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .member-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 10px #39ff14;
+    }
+
+    .member-card h3 {
+      color: #98ff98;
+      margin-bottom: 10px;
+    }
+
+    .album {
+      background: #0e1e0e;
+      border-left: 5px solid #39ff14;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #39ff14;
+      box-shadow: 0 0 10px #2aff2a44;
+    }
+
+    footer {
+      background: #061106;
+      color: #aaffaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      border-top: 1px solid #39ff14;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
